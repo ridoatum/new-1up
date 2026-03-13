@@ -20,6 +20,7 @@
   var BASE_FALL_SPEED = 2;
   var SPAWN_INTERVAL_MS = 1200;
   var PLAYER_SPEED = 6;
+  var DIFFICULTY_SCORE_DIVISOR = 200;
 
   // --- Game State ---
   var state = {
@@ -110,7 +111,7 @@
     }
 
     // Speed increases slightly with score
-    var fallSpeed = BASE_FALL_SPEED + state.score / 200;
+    var fallSpeed = BASE_FALL_SPEED + state.score / DIFFICULTY_SCORE_DIVISOR;
 
     // Move & check mushrooms
     var alive = [];
