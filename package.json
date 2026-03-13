@@ -1,0 +1,20 @@
+{
+  "name": "new-1up",
+  "version": "1.0.0",
+  "description": "A fun, retro-styled 1-UP game built with HTML, CSS, and JavaScript.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx serve src",
+    "test": "echo \"No tests configured yet\" && exit 0"
+  },
+  "keywords": [
+    "game",
+    "1up",
+    "retro",
+    "html",
+    "css",
+    "javascript"
+  ],
+  "author": "Rido Atum",
+  "license": "MIT"
+}

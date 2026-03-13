@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>New 1-UP</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="game-container">
+    <header>
+      <h1>🍄 New 1-UP</h1>
+      <p class="subtitle">Catch the mushrooms to earn extra lives!</p>
+    </header>
+
+    <div class="score-board">
+      <span>Score: <strong id="score">0</strong></span>
+      <span>Lives: <strong id="lives">3</strong></span>
+      <span>High Score: <strong id="high-score">0</strong></span>
+    </div>
+
+    <canvas id="game-canvas" width="480" height="320"></canvas>
+
+    <div class="controls">
+      <button id="start-btn" class="btn btn-primary">Start Game</button>
+      <button id="reset-btn" class="btn btn-secondary">Reset</button>
+    </div>
+
+    <div class="instructions">
+      <h2>How to Play</h2>
+      <ul>
+        <li>Use <kbd>←</kbd> and <kbd>→</kbd> arrow keys to move the player</li>
+        <li>Catch falling 🍄 mushrooms to earn points</li>
+        <li>Every 100 points you earn a 1-UP (extra life)</li>
+        <li>Missing a mushroom costs a life</li>
+        <li>Game ends when you run out of lives</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="js/game.js"></script>
+</body>
+</html>
