@@ -1,0 +1,19 @@
+{
+  "name": "new-1up",
+  "version": "1.0.0",
+  "description": "A premium PS5 Pro showcase website featuring the latest PlayStation console and upcoming games.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "npx serve src",
+    "test": "echo \"No tests configured yet\" && exit 0"
+  },
+  "keywords": [
+    "ps5",
+    "ps5-pro",
+    "playstation",
+    "gaming",
+    "showcase"
+  ],
+  "author": "Rido Atum",
+  "license": "MIT"
+}
